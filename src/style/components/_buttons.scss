@@ -70,18 +70,21 @@
   }
 }
 
-/* Resume Style */
-.cta-btn--resume {
-  color: $white-color;
-  border: 2px solid $white-color;
+/* Contact Style */
+.cta-btn--contact {
+  color: #FFFFFF;//$white-color;
+  border: 2px solid #FFFF;//$white-color;
   
   &::after {
-    background: $white-color;
+    background: #FFFF;//$white-color;
+    border: 0px solid #FFFF;//$white-color;
+    color: $white-color;
   }
 
   &:hover {
-    color: $secondary-color;
+    color: $primary-color;
     text-decoration: none;
+    border: 2px solid #FFFFFF;
 
     &::after {
       width: 100%;
@@ -93,3 +96,5 @@
 .up i {
   color: #272727;
 }
+
+
